@@ -1,0 +1,39 @@
+body{
+    background-image: url(caminantes21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+.menu{
+    border-radius: 30px;
+    
+}
+.cont{ 
+    width: 50%;
+    height: 700px;
+    position:absolute;
+    top: 180px;
+    left: 15px;
+    color: azure;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(164, 118, 113) !important;
+    font-family: 'Changa One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+audio::-webkit-media-controls-panel {
+    background-color:  rgb(164, 118, 113);
+}
+  
+audio::-webkit-media-controls-play-button {
+    background-color: rgb(164, 118, 113);
+}
+audio{
+    height: 20px;
+}
+
+
