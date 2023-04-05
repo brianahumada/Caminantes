@@ -4,19 +4,14 @@ body{
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
+    background-position:initial;
 }
 .menu{
     border-radius: 30px;
     
 }
 .cont{ 
-    width: 50%;
-    height: 700px;
-    position:absolute;
-    top: 180px;
-    left: 15px;
     color: azure;
-    
 }
 
 h1{
@@ -36,4 +31,23 @@ audio{
     height: 20px;
 }
 
-
+.mi-boton {
+    background-color:rgb(164, 118, 113); /* color de fondo */
+    border: none; /* sin borde */
+    color: rgb(0, 0, 0); /* color del texto */
+    padding: 15px 32px; /* tamaño del botón */
+    text-align: center; /* centrado del texto */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* cursor de mouse */
+    border-radius: 10px; /* borde redondeado */
+    transition-duration: 0.4s; /* duración de la transición */
+  }
+  
+  .mi-boton:hover {
+    background-color:rgb(105, 46, 39); /* color de fondo al pasar el mouse */
+  }
+  
+ 

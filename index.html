@@ -12,13 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
-    
+    <!--iconos-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
 
-    <header class="position-relative">
+    <header class="container">
         <div><img src="recursos/Logo sin fondo.png" alt="Logo" width="90"></div>
-        <nav class=" menu navbar bg-dark navbar-expand-lg bg-body-tertiary position-absolute top-0 end-0 " data-bs-theme="dark">
+        <nav class=" menu navbar bg-dark navbar-expand-lg bg-body-tertiary position-absolute top-0 end-0 m-4 " data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">Inicio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,29 +42,37 @@
           </nav>
     </header>
     <main>
-        <div class=" cont">
-            <h1>Caminantes De La Luna</h1>
+        <div class=" cont col-9  m-5 ">
+          <h1>Caminantes De La Luna</h1>
+          <div class="col-9 col-md-12">
+
             <h5>Somos una banda del Sur Mendocino.</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae nam, cum quos quia maiores alias corporis rerum laborum quo quisquam voluptas reiciendis, deserunt fuga velit sit quasi totam nobis?</p>
             <h3>Aca les dejamos algunas canciones espero que les gusten:</h3>
+          </div>
             <div class="row">
-                <p>
-                    1-El dolor no se olvida
-                    <audio src="audio/AudioCaminantes.mp3" controls type="audio/mpeg"></audio>
-                </p>
-                <p>
-                  2-Viejos demonios &nbsp; &nbsp; &nbsp; 
-                  <audio src="audio/AudioViejosDemonios.mp3" controls ></audio>
-                </p>
+                <p class="col-12">1-El Dolor No Se Olvida</p>
+                <div><audio src="audio/AudioCaminantes.mp3" controls type="audio/mpeg"></audio></div>
+                
+                <p class="col-12">2-Viejos Demonios</p>
+                <div><audio src="audio/AudioViejosDemonios.mp3" controls type="audio/mpeg"></audio></div>
+                <p class="col-12">3.Por Favor Vola</p>
+                <div><audio src="audio/AudioPorFavorVola.mp3" controls type="audio/mpeg"></audio></div>
             </div>
         </div>
         
     </main>
     <footer>
+      <div class=" container m-5 p-5">
+        <button class="mi-boton" onclick="window.open('https://www.facebook.com/profile.php?id=100077193646793','_blank')" ><i class="fi fi-brands-facebook"></i></button>
+        <button class="mi-boton" onclick="window.open('https://www.instagram.com/caminantes_de_la_luna/','_blank')"><i class="fi fi-brands-instagram"></i></button>
+        
+      </div>
         
     </footer>
 
     <!--Bootstrap-->
     <script src="recursos/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
